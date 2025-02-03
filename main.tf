@@ -10,6 +10,6 @@ resource "aws_instance" "my_ec2_instance" {
   instance_type = "t2.micro"
   subnet_id     = "subnet-063f8c4284632c38c"
   tags = {
-    Name = "Git-Deploy-002"
+    Name = "Git-Deploy-003"
   }
 }

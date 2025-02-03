@@ -9,7 +9,7 @@ on:
 #Step2: Defining jobs
 jobs:
   terraform:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout code
